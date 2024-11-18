@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mywatch {
+  margin-top: 50px;
+  width: 400px;
+  height: 130px;
+  padding: 20px;
+  background-color: aquamarine;
+
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 4px 8px;
+}
+.text {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 10, 2, 0.862);
+}
+#time {
+  font-size: 40px;
+  background-color: azure;
+  border-radius: 10px;
+  padding: 3px 15px;
+}
+#am {
+  background-color: blanchedalmond;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+#date {
+  font-size: 30px;
+  background-color: rgb(238, 199, 186);
+  border-radius: 5px;
+}
